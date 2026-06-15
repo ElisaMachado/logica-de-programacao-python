@@ -5,8 +5,9 @@ m = (n1 + n2) / 2
 
 print(f"Sua média é de {m:.2f}")
 
-if 9 <= m < 10:
+if 9 <= m <= 10:
     print("Você tirou nota A!")
+    
 elif m >= 8:
     print("Você tirou nota B!")
 
@@ -20,4 +21,4 @@ elif m >= 5:
     print("Você tirou nota E!")
 
 else:
-    print("Você tirou nota F!")   
+    print("Você tirou nota F!") 
